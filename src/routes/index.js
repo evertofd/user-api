@@ -5,7 +5,7 @@ const usuariosController = require("../controllers/usuarioController.js")
 
 module.exports=()=>{
     router.get("/",(req,res)=>{
-        res.status(200).send("Bienvenido a mi marketplace")
+        res.status(200).send("Bienvenido a mi marketplace con nuestro super cambio")
     })
 
     // usuarios
